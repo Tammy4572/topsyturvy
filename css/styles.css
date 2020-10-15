@@ -1,4 +1,8 @@
 @charset "utf-8";
+*{
+  box-sizing : border-box;
+  outline: 1px solid rgba(255, 0, 0, 0.2);
+}
 .navbar.navbar-default {
 	background-color: #464646;
 }
@@ -12,6 +16,7 @@
 }
 .nav.navbar-nav li a {
      color: #CCCCCC;
+     padding-right: 20px;
 }
 .nav.navbar-nav li a:hover {
      color: #777777;
