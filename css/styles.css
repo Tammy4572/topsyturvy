@@ -1,0 +1,33 @@
+@charset "utf-8";
+.navbar.navbar-default {
+	background-color: #464646;
+}
+.navbar-collapse {
+     background-color: rgba(70, 70, 70, 1.00);
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #FFFFFF;
+}
+.nav.navbar-nav li a {
+     color: #CCCCCC;
+}
+.nav.navbar-nav li a:hover {
+     color: #777777;
+}
+@media (min-width: 768px) {
+     .navbar-nav {
+          float: none;
+          margin:0 auto;
+          display: block;
+          text-align: center;
+     }
+     .navbar-nav>li {
+          display: inline-block;
+          float: none;
+     }
+}
+.header {
+     padding-bottom:  20px;
+}
